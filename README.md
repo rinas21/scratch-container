@@ -3,7 +3,7 @@ podman build -t app-scratch-container .
 
 ### Map host machine port 6000 to app running in the container on port 5000
 
-podman run -d -p 6000:5000 app-scratch-container
+podman run -d -p 6000:8000 app-scratch-container
 
 ### Check the status of the running app
 podman ps
